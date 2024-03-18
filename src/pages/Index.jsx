@@ -56,8 +56,20 @@ const Index = () => {
 
       {/* Main content */}
       <Grid templateColumns="repeat(3, 1fr)" gap={8} p={8}>
-        {/* Left column */}
-        <GridItem>{/* TODO: Add content for left column */}</GridItem>
+        {}
+        <GridItem>
+          <Box textAlign="center" mb={8}>
+            <Heading as="h2" size="2xl">
+              CORE VALUES
+            </Heading>
+          </Box>
+          <Stack spacing={6}>
+            <Text fontSize="xl">First and foremost, the future of our children relies on open source.</Text>
+            <Text fontSize="lg">We strive to provide the means for your ideas to be seen by the right people.</Text>
+            <Text>Our platform is intuitive and easy to navigate, welcoming innovators from all backgrounds.</Text>
+            <Text>Manage projects, share files, and communicate seamlessly with collaborators.</Text>
+          </Stack>
+        </GridItem>
 
         {/* Center column */}
         <GridItem>
