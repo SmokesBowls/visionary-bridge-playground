@@ -64,10 +64,22 @@ const Index = () => {
             </Heading>
           </Box>
           <Stack spacing={6}>
-            <Text fontSize="xl">• First and foremost, the future of our children relies on open source.</Text>
-            <Text fontSize="lg">• We strive to provide the means for your ideas to be seen by the right people.</Text>
-            <Text fontSize="md">• Our platform is intuitive and easy to navigate, welcoming innovators from all backgrounds.</Text>
-            <Text fontSize="md">• Manage projects, share files, and communicate seamlessly with collaborators.</Text>
+            <Text fontSize="xl">
+              <strong>Core Statement</strong>
+              <br />• First and foremost, the future of our children relies on open source.
+            </Text>
+            <Text fontSize="lg">
+              <strong>Visibility</strong>
+              <br />• We strive to provide the means for your ideas to be seen by the right people.
+            </Text>
+            <Text fontSize="md">
+              <strong>Accessibility</strong>
+              <br />• Our platform is intuitive and easy to navigate, welcoming innovators from all backgrounds.
+            </Text>
+            <Text fontSize="md">
+              <strong>Collaboration Tools</strong>
+              <br />• Manage projects, share files, and communicate seamlessly with collaborators.
+            </Text>
           </Stack>
         </GridItem>
 
