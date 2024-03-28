@@ -2,3 +2,15 @@ dist
 node_modules
 .env.local
 .DS_Store
+.log
+.log.*
+.xml
+.xml.*
+VirtualBox/
+.gnupg/
+.dotnet/
+conda/
+condarc
+codeium/**
+Cache/refact/**
+cache/lm-studio/**
